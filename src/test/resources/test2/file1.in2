@@ -1,0 +1,2 @@
+<http://matfyz.cz/student/test1> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://matfyz.cz/student> .
+<http://matfyz.cz/student/test1> <http://matfyz.cz/ma_jmeno> "Adam Hornacek" .

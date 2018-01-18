@@ -1,0 +1,5 @@
+<http://matfyz.cz/ucitel/24> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://matfyz.cz/ucitel> .
+
+# comment
+
+<http://matfyz.cz/ucitel/24> <http://matfyz.cz/ma_jmeno> "Adam Hornacek" .
