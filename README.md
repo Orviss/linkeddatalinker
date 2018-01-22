@@ -63,8 +63,8 @@ Implementáciu začnite písať do metódy `main` v `cz.cuni.mff.linkeddatalinke
 #### Príklad
 Súbor `x.nt`
 ```
-<http://matfyz.cz/student/test1> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://matfyz.cz/student> .
-<http://matfyz.cz/student/test1> <http://matfyz.cz/ma_jmeno> "AdamHornacek" .
+<http://matfyz.cz/student/1> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://matfyz.cz/student> .
+<http://matfyz.cz/student/1> <http://matfyz.cz/ma_jmeno> "AdamHornacek" .
 ```
 
 Súbor `y.nt`
@@ -80,7 +80,7 @@ x.nt <http://matfyz.cz/student> <http://matfyz.cz/ma_jmeno> y.nt <http://matfyz.
 
 Výstup:
 ```
-<http://matfyz.cz/student/test1> <http://www.w3.org/2002/07/owl#sameAs> <http://matfyz.cz/ucitel/24> .
+<http://matfyz.cz/student/1> <http://www.w3.org/2002/07/owl#sameAs> <http://matfyz.cz/ucitel/24> .
 ```
 
 
