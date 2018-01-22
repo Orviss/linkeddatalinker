@@ -17,7 +17,7 @@ N-Triples súbor obsahuje na test1 riadku tieto informácie:
 * `predicate` - druhý element na riadku, reprezentuje vlastnosť
     * je to vždy IRI
 * `object` - tretí element na riadku, reprezentuje test1 entitu
-    * je to buď IRI (ohraničené `<>`) alebo literál (ohraničené `""`) 
+    * je to buď IRI (ohraničené `<>`) alebo literál (ohraničené `""` - neobsahuje medzeru) 
 
 Subjekt môže byť opakovaný viac krát, viz. príklad a `<http://one.example/subject2>`
 
@@ -64,13 +64,13 @@ Implementáciu začnite písať do metódy `main` v `cz.cuni.mff.linkeddatalinke
 Súbor `x.nt`
 ```
 <http://matfyz.cz/student/test1> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://matfyz.cz/student> .
-<http://matfyz.cz/student/test1> <http://matfyz.cz/ma_jmeno> "Adam Hornacek" .
+<http://matfyz.cz/student/test1> <http://matfyz.cz/ma_jmeno> "AdamHornacek" .
 ```
 
 Súbor `y.nt`
 ```
 <http://matfyz.cz/ucitel/24> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://matfyz.cz/ucitel> .
-<http://matfyz.cz/ucitel/24> <http://matfyz.cz/ma_jmeno> "Adam Hornacek" .
+<http://matfyz.cz/ucitel/24> <http://matfyz.cz/ma_jmeno> "AdamHornacek" .
 ```
 
 Parametre programu:
