@@ -11,12 +11,12 @@
 ```
 `< >` označujú IRI = jednoznačný identifikátor
 
-N-Triples súbor obsahuje na test1 riadku tieto informácie:
-* `subject` - prvý element na riadku, reprezentuje test1 entitu
+N-Triples súbor obsahuje na 1 riadku tieto informácie:
+* `subject` - prvý element na riadku, reprezentuje 1 entitu
    * je to vždy IRI
 * `predicate` - druhý element na riadku, reprezentuje vlastnosť
     * je to vždy IRI
-* `object` - tretí element na riadku, reprezentuje test1 entitu
+* `object` - tretí element na riadku, reprezentuje 1 entitu
     * je to buď IRI (ohraničené `<>`) alebo literál (ohraničené `""` - neobsahuje medzeru) 
 
 Subjekt môže byť opakovaný viac krát, viz. príklad a `<http://one.example/subject2>`
